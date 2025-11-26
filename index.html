@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Form project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="parent-div">
+
+        <div class="container">
+            <div id="container1">
+                <h3 class="color-1">
+                    Mortgage Calculator
+                </h3>
+                <p id="clear-all"><a href="#">Clear All</a></p>
+            </div>
+            <div class="hero-section">
+                <form action="#">
+                    <label for="Mortgage-Amount">Mortgage Amount</label> <br>
+                    <span class="inside-term">£</span>
+                    <input class="input-area" type="text">
+
+
+                    <br>
+                    <br>
+                    <label id="term-space" for="Mortgage-Amount">Mortgage Term</label>
+                    <label class="space" for="intrest-rate">Intresrt Rate</label><br>
+                    
+                    <input class="input-area-1" type="text">
+                    <span class="inside-term2">years</span>
+
+                    
+                    <input class="input-area-1" type="text">
+                    <span class="inside-term3">%</span>
+
+                    <div>
+                        <br>
+
+                        <label for="Mortgage-type">Mortgage Type</label> <br>
+
+                        <div class="radio-button">
+                            <input type="radio">
+                            <label for="Mortgage-type"> Repayment</label><br>
+                        </div>
+                        <div class="radio-button">
+                            <input type="radio">
+                            <label for="Mortgage-type"> Intrest-only</label>
+                        </div>
+                        <div id="button-img"> <button id="button1"> <img id="img1" src="icon-calculator.svg" alt="">
+                                Calculate Repayments</button>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+        <div class="container-2">
+            <img id="img2" src="illustration-empty.svg" alt="error">
+            <p class="p2">Result shown here</p>
+            <p class="p3">Complete the form and click "calculate repayments" to see what your monthly repayments would
+                be. </p>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
